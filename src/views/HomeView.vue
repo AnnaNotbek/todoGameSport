@@ -1,5 +1,9 @@
-<script setup></script>
+<script setup>
+import CustomButton from '@/components/CustomButton.vue'
+import CustomInput from '@/components/customInput.vue'
+</script>
 
 <template>
-  <main></main>
+  <CustomInput />
+  <CustomButton />
 </template>
